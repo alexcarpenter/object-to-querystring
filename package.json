@@ -1,0 +1,42 @@
+{
+  "name": "@alexcarpenter/object-to-querystring",
+  "description": "Convert a object into a query string",
+  "version": "1.1.0",
+  "main": "dist/object-to-querystring.cjs.js",
+  "module": "dist/object-to-querystring.esm.js",
+  "browser": "dist/object-to-querystring.umd.js",
+  "author": "Alex Carpenter <im.alexcarpenter@gmail.com> (https://alexcarpenter.me/)",
+  "license": "MIT",
+  "dependencies": {
+    "ms": "^2.0.0"
+  },
+  "devDependencies": {
+    "jest": "^24.9.0",
+    "rollup": "^1.20.0",
+    "rollup-plugin-commonjs": "^10.0.0",
+    "rollup-plugin-node-resolve": "^5.1.0"
+  },
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c -w",
+    "test": "jest",
+    "test:watch": "jest --watch"
+  },
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexcarpenter/object-to-querystring.git"
+  },
+  "keywords": [
+    "fp",
+    "currying",
+    "compose",
+    "point-free"
+  ],
+  "bugs": {
+    "url": "https://github.com/alexcarpenter/object-to-querystring/issues"
+  },
+  "homepage": "https://github.com/alexcarpenter/object-to-querystring#readme"
+}
