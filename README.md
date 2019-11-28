@@ -18,7 +18,7 @@ const obj = {
   size: '10',
   total: '200',
 };
-objectToQuerystring(ojb); //=> ?page=2&size=10&total=200
+objectToQuerystring(obj); //=> ?page=2&size=10&total=200
 ```
 
 ## Related
